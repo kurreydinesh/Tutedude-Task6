@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.Hello{
+    border:2 px solid black;
+    display:flex;
+    width:100%;
+    margin:50px;
+    padding:50px;
+    background-color: aliceblue;
+}
+
+#box1{
+    width:50%;
+    margin:5px;
+    
+}
+img{
+    width:100%;
+}
+
+#box2{
+    width:50%;
+    justify-content: center;
+    text-align: center;
+    margin:10px;
+    padding: 7%;
+}
+h1{
+bottom:10%;
+top:10%;
+}
+
+#para{
+    text-align: left;
+}
+#forget{
+    text-align: right;
+    font-style: italic;
+}
+input::placeholder{
+    text-align: center;
+    font-style: italic;
+
+}
+
+input{
+    width:100%;
+    height:40px;
+}
+
+#btn{
+    width:100%;
+    height:60px;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+}
